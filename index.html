@@ -12,13 +12,13 @@
 
 <!-- NAVBAR -->
 <header class="navbar">
-  <div class="logo">🐄 DairyAI</div>
+  <div class="logo">🐄 SmartDairy</div>
   <nav>
     <a href="#">Home</a>
     <a href="#scope">Domain</a>
     <a href="#timeline">Milestones</a>
     <a href="#documents">Docs</a>
-    <a href="#team">Team</a>
+    <a href="#aboutus">About Us</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
@@ -55,23 +55,23 @@
 <!-- FEATURES -->
 <section class="features">
   <div class="card">
-    <h3>🐄 Lactation Modeling</h3>
-    <p>Uses Wood’s lactation curve</p>
+    <h3>🌡 Heat Stress Prediction</h3>
+    <p>TCN model predicts cattle stress in advance</p>
   </div>
 
   <div class="card">
-    <h3>🤖 AI Prediction</h3>
-    <p>Random Forest forecasting</p>
+    <h3>🧠 Disease Detection</h3>
+    <p>Multimodal AI using image + text + reports</p>
   </div>
 
   <div class="card">
-    <h3>🚨 Anomaly Detection</h3>
-    <p>Detect health issues early</p>
+    <h3>🎤 Sinhala Voice AI</h3>
+    <p>Farmer-friendly chatbot with voice support</p>
   </div>
 
   <div class="card">
-    <h3>📈 Dashboard</h3>
-    <p>Real-time insights</p>
+    <h3>📊 Smart Recommendations</h3>
+    <p>Actionable insights for farm optimization</p>
   </div>
 </section>
 
@@ -87,61 +87,93 @@
 <!-- LITERATURE -->
 <section class="sub-section">
   <h3>📚 Literature Survey</h3>
-  <p>
-    Existing dairy monitoring systems focus on basic milk tracking but lack real-time
-    AI-driven insights. Research highlights the use of lactation curve models,
-    anomaly detection, and precision livestock farming techniques.
-  </p>
+ <p>
+Recent advancements in dairy farming highlight the use of IoT, machine learning, and precision livestock farming techniques to improve productivity. Studies show that automated cooling systems and sensor-based monitoring can significantly increase milk yield by reducing heat stress in cattle. 
+
+Deep learning models such as CNNs (e.g., VGG16, ResNet) have demonstrated strong performance in detecting livestock diseases using image data. Additionally, multimodal approaches combining image, text, and clinical data have proven more accurate than single-data-source systems.
+
+In Sri Lanka, research also emphasizes the importance of localized solutions such as Sinhala-based voice assistants to improve accessibility for farmers with limited digital literacy. However, most existing systems lack real-time predictive analytics and integrated intelligent decision support.
+</p>
 </section>
 
 <!-- RESEARCH GAP -->
 <section class="sub-section light">
   <h3>⚠️ Research Gap</h3>
   <p>
-    Sri Lankan dairy farms lack intelligent, real-time monitoring systems.
-    Most current solutions are manual, reactive, and do not utilize AI or predictive analytics.
-  </p>
+Despite global advancements, Sri Lankan dairy farms still rely heavily on manual monitoring and traditional practices. Existing systems are often fragmented, lacking integration between health monitoring, productivity tracking, and advisory services.
+
+Most available solutions do not provide:
+- Real-time monitoring of cattle health and milk production
+- Early detection of diseases using AI
+- Predictive analytics for lactation performance
+- Localized, language-friendly advisory systems
+
+This creates a critical gap in intelligent, accessible, and data-driven dairy farm management systems tailored to local conditions.
+</p>
 </section>
 
 <!-- PROBLEM -->
 <section class="sub-section">
   <h3>❗ Research Problem</h3>
   <p>
-    How can we design a smart system that accurately predicts milk production,
-    detects anomalies early, and provides actionable insights for farmers in real time?
-  </p>
+How can an integrated smart dairy farming system be designed to continuously monitor cattle health, predict milk production patterns, detect diseases early, and provide real-time, farmer-friendly recommendations in the Sri Lankan context?
+
+The challenge lies in combining IoT, machine learning, and localized AI technologies into a single, scalable, and user-friendly platform.
+</p>
 </section>
 
 <!-- OBJECTIVES -->
 <section class="sub-section light">
   <h3>🎯 Research Objectives</h3>
-  <ul>
-    <li>Predict milk yield using AI models</li>
-    <li>Detect anomalies in real time</li>
-    <li>Improve dairy productivity</li>
-    <li>Provide farmer-friendly dashboards</li>
-  </ul>
+ <ul>
+  <li>Develop a real-time lactation monitoring system to predict milk yield using machine learning</li>
+  <li>Design a multimodal disease detection system using images, clinical reports, and symptoms</li>
+  <li>Implement an IoT-based heat stress monitoring system with automated cooling</li>
+  <li>Create a Sinhala voice-assisted chatbot for farmer guidance</li>
+  <li>Provide actionable recommendations to improve productivity and animal health</li>
+  <li>Enhance decision-making using data-driven insights</li>
+</ul>
 </section>
 
 <!-- METHODOLOGY -->
 <section class="sub-section">
   <h3>🧪 Methodology</h3>
   <p>
-    A hybrid approach combining Wood’s Lactation Curve with Random Forest models.
-    Real-time data is processed using streaming pipelines and anomaly detection techniques.
-  </p>
+The proposed system integrates four intelligent modules into a unified smart dairy platform:
+
+<strong>1. IoT-Based Heat Stress Monitoring:</strong>  
+Wearable sensors collect temperature and humidity data, which is processed using a Temporal Convolutional Network (TCN) model to predict heat stress levels. An automated sprinkler system is activated when stress thresholds are exceeded.
+
+<strong>2. Lactation Monitoring and Prediction:</strong>  
+Milk production data is analyzed using a Random Forest regression model to generate lactation curves and detect deviations between predicted and actual yield.
+
+<strong>3. Multimodal Disease Detection:</strong>  
+A hybrid AI model combines:
+- Image classification (VGG16 CNN)
+- Symptom-based analysis
+- OCR-based clinical report analysis  
+to improve diagnostic accuracy.
+
+<strong>4. Sinhala Voice-Assisted Chatbot:</strong>  
+A Retrieval-Augmented Generation (RAG) system enables farmers to interact using Sinhala voice queries, providing real-time advice on feeding, health, and farm management.
+
+This integrated approach enables continuous monitoring, predictive insights, and automated decision support.
+</p>
 </section>
 
 <!-- TECHNOLOGIES -->
 <section class="sub-section light">
   <h3>🛠️ Technologies Used</h3>
   <ul>
-    <li>Frontend: React / React Native</li>
-    <li>Backend: .NET / FastAPI</li>
-    <li>Database: SQL Server</li>
-    <li>AI/ML: Python, Scikit-learn</li>
-    <li>Deployment: Docker, AWS</li>
-  </ul>
+  <li><strong>Frontend:</strong> React / React Native</li>
+  <li><strong>Backend:</strong> .NET / FastAPI</li>
+  <li><strong>Database:</strong> Firebase Realtime DB, SQL Server</li>
+  <li><strong>Machine Learning:</strong> Python, Scikit-learn, PyTorch</li>
+  <li><strong>Deep Learning:</strong> VGG16 CNN, Temporal Convolutional Network (TCN)</li>
+  <li><strong>IoT:</strong> ESP32, DHT22, DS18B20 Sensors</li>
+  <li><strong>AI Systems:</strong> OCR (Tesseract), RAG, FAISS, LLM (Llama 3)</li>
+  <li><strong>Cloud & Deployment:</strong> Docker, AWS / Cloud Services</li>
+</ul>
 </section>
 
 <!-- TIMELINE -->
@@ -227,7 +259,7 @@
 
 <!-- TEAM -->
 <!-- ABOUT / TEAM -->
-<section id="team" class="section team-section">
+<section id="About Us" class="section team-section">
   <h2>Meet Our Team</h2>
 
   <!-- SUPERVISORS -->
