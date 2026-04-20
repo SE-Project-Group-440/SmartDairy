@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>DairyAI - Smart Dairy System</title>
@@ -10,372 +11,408 @@
 
 <body>
 
-<!-- NAVBAR -->
-<header class="navbar">
-  <div class="logo">🐄 SmartDairy</div>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#scope">Domain</a>
-    <a href="#timeline">Milestones</a>
-    <a href="#documents">Docs</a>
-    <a href="#aboutus">About Us</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">🐄 SmartDairy</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#scope">Domain</a>
+      <a href="#timeline">Milestones</a>
+      <a href="#documents">Docs</a>
+      <a href="#aboutus">About Us</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
 
-<!-- HERO (UNCHANGED) -->
-<section class="hero">
+  <!-- HERO (UNCHANGED) -->
+  <section class="hero">
 
-  <div class="hero-content">
-    
-    <h1>
-      Smart Dairy <span class="highlight">AI Platform</span>
-    </h1>
+    <div class="hero-content">
 
-    <p class="hero-tagline">
-      Transforming Dairy Farming with AI, IoT & Real-Time Intelligence
+      <h1>
+        Smart Dairy <span class="highlight">AI Platform</span>
+      </h1>
+
+      <p class="hero-tagline">
+        Transforming Dairy Farming with AI, IoT & Real-Time Intelligence
+      </p>
+
+      <p class="hero-desc">
+        An intelligent dairy management system designed for Sri Lanka, combining
+        machine learning, IoT sensors, multimodal disease detection, and a Sinhala
+        voice assistant to improve milk production, animal health, and farm efficiency.
+      </p>
+
+      <div class="hero-points" style="margin-top: 20px;">
+        <span>🐄 Lactation Prediction</span>
+        <span>🌡 Heat Stress Monitoring</span>
+        <span>🧠 Disease Detection</span>
+        <span>🎤 Sinhala Voice AI</span>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="#scope">
+          <button class="btn-primary">Explore Research</button>
+        </a>
+
+        <a href="#timeline">
+          <button class="btn-outline">View Milestones</button>
+        </a>
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="card">
+      <h3>🌡 Heat Stress Prediction</h3>
+      <p>TCN model predicts cattle stress in advance</p>
+    </div>
+
+    <div class="card">
+      <h3>🧠 Disease Detection</h3>
+      <p>Multimodal AI using image + text + reports</p>
+    </div>
+
+    <div class="card">
+      <h3>🎤 Sinhala Voice AI</h3>
+      <p>Farmer-friendly chatbot with voice support</p>
+    </div>
+
+    <div class="card">
+      <h3>📊 Smart Recommendations</h3>
+      <p>Actionable insights for farm optimization</p>
+    </div>
+  </section>
+
+  <!-- DOMAIN -->
+  <!-- DOMAIN MAIN -->
+  <section id="scope" class="section">
+    <h2>Project Domain</h2>
+    <p class="section-sub">
+      Detailed research background and methodology of the Smart Dairy AI System
     </p>
+  </section>
 
-    <p class="hero-desc">
-      An intelligent dairy management system designed for Sri Lanka, combining 
-      machine learning, IoT sensors, multimodal disease detection, and a Sinhala 
-      voice assistant to improve milk production, animal health, and farm efficiency.
+  <!-- LITERATURE -->
+  <section class="sub-section">
+    <h3>📚 Literature Survey</h3>
+    <p>
+      Recent advancements in dairy farming highlight the use of IoT, machine learning, and precision livestock farming
+      techniques to improve productivity. Studies show that automated cooling systems and sensor-based monitoring can
+      significantly increase milk yield by reducing heat stress in cattle.
+
+      Deep learning models such as CNNs (e.g., VGG16, ResNet) have demonstrated strong performance in detecting
+      livestock diseases using image data. Additionally, multimodal approaches combining image, text, and clinical data
+      have proven more accurate than single-data-source systems.
+
+      In Sri Lanka, research also emphasizes the importance of localized solutions such as Sinhala-based voice
+      assistants to improve accessibility for farmers with limited digital literacy. However, most existing systems lack
+      real-time predictive analytics and integrated intelligent decision support.
     </p>
+  </section>
 
-    <div class="hero-points">
-      <span>🐄 Lactation Prediction</span>
-      <span>🌡 Heat Stress Monitoring</span>
-      <span>🧠 Disease Detection</span>
-      <span>🎤 Sinhala Voice AI</span>
+  <!-- RESEARCH GAP -->
+  <section class="sub-section light">
+    <h3>⚠️ Research Gap</h3>
+    <p>
+      Despite global advancements, Sri Lankan dairy farms still rely heavily on manual monitoring and traditional
+      practices. Existing systems are often fragmented, lacking integration between health monitoring, productivity
+      tracking, and advisory services.
+
+      Most available solutions do not provide:
+      - Real-time monitoring of cattle health and milk production
+      - Early detection of diseases using AI
+      - Predictive analytics for lactation performance
+      - Localized, language-friendly advisory systems
+
+      This creates a critical gap in intelligent, accessible, and data-driven dairy farm management systems tailored to
+      local conditions.
+    </p>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="sub-section">
+    <h3>❗ Research Problem</h3>
+    <p>
+      How can an integrated smart dairy farming system be designed to continuously monitor cattle health, predict milk
+      production patterns, detect diseases early, and provide real-time, farmer-friendly recommendations in the Sri
+      Lankan context?
+
+      The challenge lies in combining IoT, machine learning, and localized AI technologies into a single, scalable, and
+      user-friendly platform.
+    </p>
+  </section>
+
+  <!-- OBJECTIVES -->
+  <section class="sub-section light">
+    <h3>🎯 Research Objectives</h3>
+    <ul>
+      <li>Develop a real-time lactation monitoring system to predict milk yield using machine learning</li>
+      <li>Design a multimodal disease detection system using images, clinical reports, and symptoms</li>
+      <li>Implement an IoT-based heat stress monitoring system with automated cooling</li>
+      <li>Create a Sinhala voice-assisted chatbot for farmer guidance</li>
+      <li>Provide actionable recommendations to improve productivity and animal health</li>
+      <li>Enhance decision-making using data-driven insights</li>
+    </ul>
+  </section>
+
+  <!-- METHODOLOGY -->
+  <section class="sub-section">
+    <h3>🧪 Methodology</h3>
+    <p>
+      The proposed system integrates four intelligent modules into a unified smart dairy platform:
+
+      <strong>1. IoT-Based Heat Stress Monitoring:</strong>
+      Wearable sensors collect temperature and humidity data, which is processed using a Temporal Convolutional Network
+      (TCN) model to predict heat stress levels. An automated sprinkler system is activated when stress thresholds are
+      exceeded.
+
+      <strong>2. Lactation Monitoring and Prediction:</strong>
+      Milk production data is analyzed using a Random Forest regression model to generate lactation curves and detect
+      deviations between predicted and actual yield.
+
+      <strong>3. Multimodal Disease Detection:</strong>
+      A hybrid AI model combines:
+      - Image classification (VGG16 CNN)
+      - Symptom-based analysis
+      - OCR-based clinical report analysis
+      to improve diagnostic accuracy.
+
+      <strong>4. Sinhala Voice-Assisted Chatbot:</strong>
+      A Retrieval-Augmented Generation (RAG) system enables farmers to interact using Sinhala voice queries, providing
+      real-time advice on feeding, health, and farm management.
+
+      This integrated approach enables continuous monitoring, predictive insights, and automated decision support.
+    </p>
+  </section>
+
+  <!-- TECHNOLOGIES -->
+  <section class="sub-section light">
+    <h3>🛠️ Technologies Used</h3>
+    <ul>
+      <li><strong>Frontend:</strong> React / React Native</li>
+      <li><strong>Backend:</strong> .NET / FastAPI</li>
+      <li><strong>Database:</strong> Firebase Realtime DB, SQL Server</li>
+      <li><strong>Machine Learning:</strong> Python, Scikit-learn, PyTorch</li>
+      <li><strong>Deep Learning:</strong> VGG16 CNN, Temporal Convolutional Network (TCN)</li>
+      <li><strong>IoT:</strong> ESP32, DHT22, DS18B20 Sensors</li>
+      <li><strong>AI Systems:</strong> OCR (Tesseract), RAG, FAISS, LLM (Llama 3)</li>
+      <li><strong>Cloud & Deployment:</strong> Docker, AWS / Cloud Services</li>
+    </ul>
+  </section>
+
+  <!-- TIMELINE -->
+  <section id="timeline" class="section timeline-section">
+    <h2>Timeline in Brief</h2>
+
+    <div class="timeline-vertical">
+
+      <div class="timeline-block">
+        <div class="dot"></div>
+        <div class="content">
+          <span class="date">March 2024</span>
+          <h3>Project Proposal</h3>
+          <p>Initial proposal submitted and approved.</p>
+          <div class="progress">
+            <div style="width: 10%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-block">
+        <div class="dot"></div>
+        <div class="content">
+          <span class="date">June 2024</span>
+          <h3>Progress Presentation I</h3>
+          <p>First evaluation of system design and implementation.</p>
+          <div class="progress">
+            <div style="width: 20%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-block">
+        <div class="dot"></div>
+        <div class="content">
+          <span class="date">July 2024</span>
+          <h3>Research Paper</h3>
+          <p>Paper submission with literature and findings.</p>
+          <div class="progress">
+            <div style="width: 40%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-block">
+        <div class="dot"></div>
+        <div class="content">
+          <span class="date">September 2024</span>
+          <h3>Progress Presentation II</h3>
+          <p>Advanced system implementation and evaluation.</p>
+          <div class="progress">
+            <div style="width: 65%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-block">
+        <div class="dot"></div>
+        <div class="content">
+          <span class="date">October 2024</span>
+          <h3>Website Assessment</h3>
+          <p>Project website and UI evaluation.</p>
+          <div class="progress">
+            <div style="width: 80%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-block">
+        <div class="dot"></div>
+        <div class="content">
+          <span class="date">November 2024</span>
+          <h3>Final Report</h3>
+          <p>Final thesis submission and completion.</p>
+          <div class="progress">
+            <div style="width: 100%"></div>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </section>
 
-    <div class="hero-buttons">
-      <a href="#scope">
-        <button class="btn-primary">Explore Research</button>
-      </a>
+  <!-- DOCUMENTS -->
+  <section id="documents" class="section">
+    <h2>Documents</h2>
 
-      <a href="#timeline">
-        <button class="btn-outline">View Milestones</button>
-      </a>
-    </div>
-
-  </div>
-
-
-
-</section>
-
-<!-- FEATURES -->
-<section class="features">
-  <div class="card">
-    <h3>🌡 Heat Stress Prediction</h3>
-    <p>TCN model predicts cattle stress in advance</p>
-  </div>
-
-  <div class="card">
-    <h3>🧠 Disease Detection</h3>
-    <p>Multimodal AI using image + text + reports</p>
-  </div>
-
-  <div class="card">
-    <h3>🎤 Sinhala Voice AI</h3>
-    <p>Farmer-friendly chatbot with voice support</p>
-  </div>
-
-  <div class="card">
-    <h3>📊 Smart Recommendations</h3>
-    <p>Actionable insights for farm optimization</p>
-  </div>
-</section>
-
-<!-- DOMAIN -->
-<!-- DOMAIN MAIN -->
-<section id="scope" class="section">
-  <h2>Project Domain</h2>
-  <p class="section-sub">
-    Detailed research background and methodology of the Smart Dairy AI System
-  </p>
-</section>
-
-<!-- LITERATURE -->
-<section class="sub-section">
-  <h3>📚 Literature Survey</h3>
- <p>
-Recent advancements in dairy farming highlight the use of IoT, machine learning, and precision livestock farming techniques to improve productivity. Studies show that automated cooling systems and sensor-based monitoring can significantly increase milk yield by reducing heat stress in cattle. 
-
-Deep learning models such as CNNs (e.g., VGG16, ResNet) have demonstrated strong performance in detecting livestock diseases using image data. Additionally, multimodal approaches combining image, text, and clinical data have proven more accurate than single-data-source systems.
-
-In Sri Lanka, research also emphasizes the importance of localized solutions such as Sinhala-based voice assistants to improve accessibility for farmers with limited digital literacy. However, most existing systems lack real-time predictive analytics and integrated intelligent decision support.
-</p>
-</section>
-
-<!-- RESEARCH GAP -->
-<section class="sub-section light">
-  <h3>⚠️ Research Gap</h3>
-  <p>
-Despite global advancements, Sri Lankan dairy farms still rely heavily on manual monitoring and traditional practices. Existing systems are often fragmented, lacking integration between health monitoring, productivity tracking, and advisory services.
-
-Most available solutions do not provide:
-- Real-time monitoring of cattle health and milk production
-- Early detection of diseases using AI
-- Predictive analytics for lactation performance
-- Localized, language-friendly advisory systems
-
-This creates a critical gap in intelligent, accessible, and data-driven dairy farm management systems tailored to local conditions.
-</p>
-</section>
-
-<!-- PROBLEM -->
-<section class="sub-section">
-  <h3>❗ Research Problem</h3>
-  <p>
-How can an integrated smart dairy farming system be designed to continuously monitor cattle health, predict milk production patterns, detect diseases early, and provide real-time, farmer-friendly recommendations in the Sri Lankan context?
-
-The challenge lies in combining IoT, machine learning, and localized AI technologies into a single, scalable, and user-friendly platform.
-</p>
-</section>
-
-<!-- OBJECTIVES -->
-<section class="sub-section light">
-  <h3>🎯 Research Objectives</h3>
- <ul>
-  <li>Develop a real-time lactation monitoring system to predict milk yield using machine learning</li>
-  <li>Design a multimodal disease detection system using images, clinical reports, and symptoms</li>
-  <li>Implement an IoT-based heat stress monitoring system with automated cooling</li>
-  <li>Create a Sinhala voice-assisted chatbot for farmer guidance</li>
-  <li>Provide actionable recommendations to improve productivity and animal health</li>
-  <li>Enhance decision-making using data-driven insights</li>
-</ul>
-</section>
-
-<!-- METHODOLOGY -->
-<section class="sub-section">
-  <h3>🧪 Methodology</h3>
-  <p>
-The proposed system integrates four intelligent modules into a unified smart dairy platform:
-
-<strong>1. IoT-Based Heat Stress Monitoring:</strong>  
-Wearable sensors collect temperature and humidity data, which is processed using a Temporal Convolutional Network (TCN) model to predict heat stress levels. An automated sprinkler system is activated when stress thresholds are exceeded.
-
-<strong>2. Lactation Monitoring and Prediction:</strong>  
-Milk production data is analyzed using a Random Forest regression model to generate lactation curves and detect deviations between predicted and actual yield.
-
-<strong>3. Multimodal Disease Detection:</strong>  
-A hybrid AI model combines:
-- Image classification (VGG16 CNN)
-- Symptom-based analysis
-- OCR-based clinical report analysis  
-to improve diagnostic accuracy.
-
-<strong>4. Sinhala Voice-Assisted Chatbot:</strong>  
-A Retrieval-Augmented Generation (RAG) system enables farmers to interact using Sinhala voice queries, providing real-time advice on feeding, health, and farm management.
-
-This integrated approach enables continuous monitoring, predictive insights, and automated decision support.
-</p>
-</section>
-
-<!-- TECHNOLOGIES -->
-<section class="sub-section light">
-  <h3>🛠️ Technologies Used</h3>
-  <ul>
-  <li><strong>Frontend:</strong> React / React Native</li>
-  <li><strong>Backend:</strong> .NET / FastAPI</li>
-  <li><strong>Database:</strong> Firebase Realtime DB, SQL Server</li>
-  <li><strong>Machine Learning:</strong> Python, Scikit-learn, PyTorch</li>
-  <li><strong>Deep Learning:</strong> VGG16 CNN, Temporal Convolutional Network (TCN)</li>
-  <li><strong>IoT:</strong> ESP32, DHT22, DS18B20 Sensors</li>
-  <li><strong>AI Systems:</strong> OCR (Tesseract), RAG, FAISS, LLM (Llama 3)</li>
-  <li><strong>Cloud & Deployment:</strong> Docker, AWS / Cloud Services</li>
-</ul>
-</section>
-
-<!-- TIMELINE -->
-<section id="timeline" class="section timeline-section">
-  <h2>Timeline in Brief</h2>
-
-  <div class="timeline-vertical">
-
-    <div class="timeline-block">
-      <div class="dot"></div>
-      <div class="content">
-        <span class="date">March 2024</span>
-        <h3>Project Proposal</h3>
-        <p>Initial proposal submitted and approved.</p>
-        <div class="progress"><div style="width: 10%"></div></div>
+    <div class="docs">
+      <div class="doc">
+        <h4>📄 Proposal</h4><button>Download</button>
+      </div>
+      <div class="doc">
+        <h4>📄 Progress 1</h4><button>Download</button>
+      </div>
+      <div class="doc">
+        <h4>📄 Progress 2</h4><button>Download</button>
+      </div>
+      <div class="doc">
+        <h4>📄 Final Report</h4><button>Download</button>
       </div>
     </div>
+  </section>
 
-    <div class="timeline-block">
-      <div class="dot"></div>
-      <div class="content">
-        <span class="date">June 2024</span>
-        <h3>Progress Presentation I</h3>
-        <p>First evaluation of system design and implementation.</p>
-        <div class="progress"><div style="width: 20%"></div></div>
+  <!-- TEAM -->
+  <!-- ABOUT / TEAM -->
+  <section id="About Us" class="section team-section">
+    <h2>Meet Our Team</h2>
+
+    <!-- SUPERVISORS -->
+    <h3 class="team-sub">Supervisors</h3>
+    <div class="team-grid">
+
+      <div class="team-card">
+        <img src="images/sup1.jpeg" alt="">
+        <h4>Ms. Karthiga Rajendran​</h4>
+        <span class="badge">Supervisor</span>
+        <p>Sri Lanka Institute of Information Technology</p>
+        <div class="links">
+          <a href="#">LinkedIn</a>
+          <a href="#">Email</a>
+        </div>
       </div>
+
+      <div class="team-card">
+        <img src="images/sup2.jpeg" alt="">
+        <h4>Ms. Kaushalya Rajapakse</h4>
+        <span class="badge">Co-Supervisor</span>
+        <p>Sri Lanka Institute of Information Technology</p>
+        <div class="links">
+          <a href="#">LinkedIn</a>
+          <a href="#">Email</a>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <img src="images/sup3.jpeg" alt="">
+        <h4>Mr. Dinesh​​</h4>
+        <span class="badge">External</span>
+        <p>CIC Seeds Farm, Higurakgoda</p>
+        <div class="links">
+
+        </div>
+      </div>
+
     </div>
 
-    <div class="timeline-block">
-      <div class="dot"></div>
-      <div class="content">
-        <span class="date">July 2024</span>
-        <h3>Research Paper</h3>
-        <p>Paper submission with literature and findings.</p>
-        <div class="progress"><div style="width: 40%"></div></div>
+    <!-- MEMBERS -->
+    <h3 class="team-sub">Group Members</h3>
+    <div class="team-grid">
+
+      <div class="team-card">
+        <img src="images/Manujaya.png" alt="">
+        <h4>Manujaya Kamburugamuwa</h4>
+        <span class="badge green">Leader</span>
+        <p>Software Engineering Undergraduate - SLIIT</p>
+        <div class="links">
+          <a href="#">LinkedIn</a>
+          <a href="#">Email</a>
+        </div>
       </div>
-    </div>
 
-    <div class="timeline-block">
-      <div class="dot"></div>
-      <div class="content">
-        <span class="date">September 2024</span>
-        <h3>Progress Presentation II</h3>
-        <p>Advanced system implementation and evaluation.</p>
-        <div class="progress"><div style="width: 65%"></div></div>
+      <div class="team-card">
+        <img src="images/samudra.jpeg" alt="">
+        <h4>Samudra Waduge</h4>
+        <span class="badge green">Member</span>
+        <p>Software Engineering Undergraduate - SLIIT</p>
+        <div class="links">
+          <a href="#">LinkedIn</a>
+          <a href="#">Email</a>
+        </div>
       </div>
-    </div>
 
-    <div class="timeline-block">
-      <div class="dot"></div>
-      <div class="content">
-        <span class="date">October 2024</span>
-        <h3>Website Assessment</h3>
-        <p>Project website and UI evaluation.</p>
-        <div class="progress"><div style="width: 80%"></div></div>
+      <div class="team-card">
+        <img src="images/m3.jpg" alt="">
+        <h4>Anjana Gunarathna</h4>
+        <span class="badge green">Member</span>
+        <p>Software Engineering Undergraduate - SLIIT</p>
+        <div class="links">
+          <a href="#">LinkedIn</a>
+          <a href="#">Email</a>
+        </div>
       </div>
-    </div>
 
-    <div class="timeline-block">
-      <div class="dot"></div>
-      <div class="content">
-        <span class="date">November 2024</span>
-        <h3>Final Report</h3>
-        <p>Final thesis submission and completion.</p>
-        <div class="progress"><div style="width: 100%"></div></div>
+      <div class="team-card">
+        <img src="images/m4.jpg" alt="">
+        <h4>Dinidi Gallage</h4>
+        <span class="badge green">Member</span>
+        <p>Software Engineering Undergraduate - SLIIT</p>
+        <div class="links">
+          <a href="#">LinkedIn</a>
+          <a href="#">Email</a>
+        </div>
       </div>
+
     </div>
+  </section>
 
-  </div>
-</section>
+  <!-- CONTACT -->
+  <section id="contact" class="section dark">
+    <h2>Contact</h2>
 
-<!-- DOCUMENTS -->
-<section id="documents" class="section">
-  <h2>Documents</h2>
-
-  <div class="docs">
-    <div class="doc"><h4>📄 Proposal</h4><button>Download</button></div>
-    <div class="doc"><h4>📄 Progress 1</h4><button>Download</button></div>
-    <div class="doc"><h4>📄 Progress 2</h4><button>Download</button></div>
-    <div class="doc"><h4>📄 Final Report</h4><button>Download</button></div>
-  </div>
-</section>
-
-<!-- TEAM -->
-<!-- ABOUT / TEAM -->
-<section id="About Us" class="section team-section">
-  <h2>Meet Our Team</h2>
-
-  <!-- SUPERVISORS -->
-  <h3 class="team-sub">Supervisors</h3>
-  <div class="team-grid">
-
-    <div class="team-card">
-      <img src="images/sup1.jpg" alt="">
-      <h4>Karthiga Rajendran</h4>
-      <span class="badge">Supervisor</span>
-      <p>Software Engineering Department SLIIT</p>
-      <div class="links">
-        <a href="#">LinkedIn</a>
-        <a href="#">Email</a>
-      </div>
-    </div>
-
-    <div class="team-card">
-      <img src="images/sup2.jpg" alt="">
-      <h4>Kaushalya Rajapakse</h4>
-      <span class="badge">Co-Supervisor</span>
-      <p>Software Engineering Department SLIIT</p>
-      <div class="links">
-        <a href="#">LinkedIn</a>
-        <a href="#">Email</a>
-      </div>
-    </div>
-
-    <div class="team-card">
-      <img src="images/sup3.jpg" alt="">
-      <h4>Dinesh</h4>
-      <span class="badge">External</span>
-      <p>Research Institute</p>
-      <div class="links">
-        <a href="#">LinkedIn</a>
-        <a href="#">Email</a>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- MEMBERS -->
-  <h3 class="team-sub">Group Members</h3>
-  <div class="team-grid">
-
-    <div class="team-card">
-      <img src="images/Manujaya.png" alt="">
-      <h4>Manujaya Kamburugamuwa</h4>
-      <span class="badge green">Leader</span>
-      <p>Software Engineering Undergraduate - SLIIT</p>
-      <div class="links">
-        <a href="#">LinkedIn</a>
-        <a href="#">Email</a>
-      </div>
-    </div>
-
-    <div class="team-card">
-      <img src="images/m2.jpg" alt="">
-      <h4>Samudra Waduge</h4>
-      <span class="badge green">Member</span>
-      <p>Software Engineering Undergraduate - SLIIT</p>
-      <div class="links">
-        <a href="#">LinkedIn</a>
-        <a href="#">Email</a>
-      </div>
-    </div>
-
-    <div class="team-card">
-      <img src="images/m3.jpg" alt="">
-      <h4>Anjana Gunarathna</h4>
-      <span class="badge green">Member</span>
-      <p>Software Engineering Undergraduate - SLIIT</p>
-      <div class="links">
-        <a href="#">LinkedIn</a>
-        <a href="#">Email</a>
-      </div>
-    </div>
-
-    <div class="team-card">
-      <img src="images/m4.jpg" alt="">
-      <h4>Dinidi Gallage</h4>
-      <span class="badge green">Member</span>
-      <p>Software Engineering Undergraduate - SLIIT</p>
-      <div class="links">
-        <a href="#">LinkedIn</a>
-        <a href="#">Email</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="section dark">
-  <h2>Contact</h2>
-
-  <form>
-    <input type="text" placeholder="Name">
-    <input type="email" placeholder="Email">
-    <textarea placeholder="Message"></textarea>
-    <button>Send Message</button>
-  </form>
-</section>
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+      <button>Send Message</button>
+    </form>
+  </section>
 
 </body>
+
 </html>
