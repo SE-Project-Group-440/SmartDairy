@@ -537,6 +537,10 @@ form button {
   border-color: var(--primary);
 }
 
+.doc a {
+  text-decoration: none;
+}
+
 .doc h4 {
   font-size: 18px;
   color: var(--dark);
@@ -692,4 +696,81 @@ form button {
   margin: 0 5px;
   color: var(--primary);
   text-decoration: none;
+}
+
+/* PRESENTATIONS UI */
+.pres-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pres-card {
+  flex: 1;
+  background: white;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-left: 5px solid var(--accent);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 180px;
+  padding-bottom: 20px;
+}
+
+.pres-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.pres-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.pres-info h4 {
+  font-size: 18px;
+  color: var(--dark);
+  margin-bottom: 5px;
+}
+
+.pres-info p {
+  font-size: 13px;
+  color: #6b7280;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.pres-btn {
+  text-decoration: none;
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+  align-self: center;
+  display: inline-flex;
+  gap: 6px;
+}
+
+.pres-btn::before {
+  content: "⬇️";
+  font-size: 12px;
+}
+
+.pres-btn:hover {
+  background: var(--primary);
+  color: white;
 }
