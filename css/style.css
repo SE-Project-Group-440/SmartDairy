@@ -87,8 +87,9 @@ body {
 
 .hero h1 {
   font-size: 64px;
-  font-weight: 700;
-  text-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+  font-weight: 700;  
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
 }
 
 .hero-tagline {
