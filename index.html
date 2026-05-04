@@ -221,7 +221,7 @@
       <div class="timeline-block">
         <div class="dot"></div>
         <div class="content">
-          <span class="date">March 2024</span>
+          <span class="date">September 2025</span>
           <h3>Project Proposal</h3>
           <p>Initial proposal submitted and approved.</p>
           <div class="progress">
@@ -233,7 +233,7 @@
       <div class="timeline-block">
         <div class="dot"></div>
         <div class="content">
-          <span class="date">June 2024</span>
+          <span class="date">November 2025</span>
           <h3>Progress Presentation I</h3>
           <p>First evaluation of system design and implementation.</p>
           <div class="progress">
@@ -245,7 +245,7 @@
       <div class="timeline-block">
         <div class="dot"></div>
         <div class="content">
-          <span class="date">July 2024</span>
+          <span class="date">April 2026</span>
           <h3>Research Paper</h3>
           <p>Paper submission with literature and findings.</p>
           <div class="progress">
@@ -257,7 +257,7 @@
       <div class="timeline-block">
         <div class="dot"></div>
         <div class="content">
-          <span class="date">September 2024</span>
+          <span class="date">April 2026</span>
           <h3>Progress Presentation II</h3>
           <p>Advanced system implementation and evaluation.</p>
           <div class="progress">
@@ -269,7 +269,7 @@
       <div class="timeline-block">
         <div class="dot"></div>
         <div class="content">
-          <span class="date">October 2024</span>
+          <span class="date">April 2026</span>
           <h3>Website Assessment</h3>
           <p>Project website and UI evaluation.</p>
           <div class="progress">
@@ -281,7 +281,7 @@
       <div class="timeline-block">
         <div class="dot"></div>
         <div class="content">
-          <span class="date">November 2024</span>
+          <span class="date">May 2026</span>
           <h3>Final Report</h3>
           <p>Final thesis submission and completion.</p>
           <div class="progress">
@@ -388,8 +388,8 @@
         <span class="badge">Supervisor</span>
         <p>Sri Lanka Institute of Information Technology</p>
         <div class="links">
-          <a href="#">LinkedIn</a>
-          <a href="#">Email</a>
+          <a href="https://www.linkedin.com/in/karthiga-rajendran-6492b3171/">LinkedIn</a>
+          <a href="karthiga.r@sliit.lk">Email</a>
         </div>
       </div>
 
@@ -399,14 +399,14 @@
         <span class="badge">Co-Supervisor</span>
         <p>Sri Lanka Institute of Information Technology</p>
         <div class="links">
-          <a href="#">LinkedIn</a>
-          <a href="#">Email</a>
+          <a href="https://www.linkedin.com/in/kaushalya-rajapakse/">LinkedIn</a>
+          <a href="kaushalya.r@sliit.lk">Email</a>
         </div>
       </div>
 
       <div class="team-card">
         <img src="images/sup3.jpeg" alt="">
-        <h4>Mr. Dinesh​​</h4>
+        <h4>Mr. Dinesh Perera​​</h4>
         <span class="badge">External</span>
         <p>CIC Seeds Farm, Higurakgoda</p>
         <div class="links">
@@ -426,8 +426,8 @@
         <span class="badge green">Leader</span>
         <p>Software Engineering Undergraduate - SLIIT</p>
         <div class="links">
-          <a href="#">LinkedIn</a>
-          <a href="#">Email</a>
+          <a href="www.linkedin.com/in/manujayak">LinkedIn</a>
+          <a href="manujayak8@gmail.com">Email</a>
         </div>
       </div>
 
@@ -437,7 +437,7 @@
         <span class="badge green">Member</span>
         <p>Software Engineering Undergraduate - SLIIT</p>
         <div class="links">
-          <a href="">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/samudra-waduge-87974b232/">LinkedIn</a>
           <a href="wadugesamudra@gmail.com">Email</a>
         </div>
       </div>
@@ -448,8 +448,8 @@
         <span class="badge green">Member</span>
         <p>Software Engineering Undergraduate - SLIIT</p>
         <div class="links">
-          <a href="#">LinkedIn</a>
-          <a href="#">Email</a>
+          <a href="https://www.linkedin.com/in/anjana-gunarathna/">LinkedIn</a>
+          <a href="anjanagunarathna01@gmail.com">Email</a>
         </div>
       </div>
 
@@ -459,8 +459,8 @@
         <span class="badge green">Member</span>
         <p>Software Engineering Undergraduate - SLIIT</p>
         <div class="links">
-          <a href="#">LinkedIn</a>
-          <a href="#">Email</a>
+          <a href="https://www.linkedin.com/in/dinidi-gallage-963a29239/">LinkedIn</a>
+          <a href="dinidigallage@gmail.com">Email</a>
         </div>
       </div>
 
@@ -468,16 +468,48 @@
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="section dark">
-    <h2>Contact</h2>
+<section id="contact" class="section dark">
+  <h2>Get in Touch</h2>
 
-    <form>
-      <input type="text" placeholder="Name">
-      <input type="email" placeholder="Email">
-      <textarea placeholder="Message"></textarea>
-      <button>Send Message</button>
+  <div class="contact-container">
+    
+    <!-- LEFT: FORM -->
+    <form id="contact-form" class="contact-form">
+      <input type="text" name="user_name" placeholder="John Doe" required>
+      <input type="email" name="user_email" placeholder="name@example.com" required>
+      <textarea name="message" placeholder="Message or Query" required></textarea>
+      <button type="submit">Submit</button>
     </form>
-  </section>
+
+    <!-- RIGHT: INFO -->
+    <div class="contact-info">
+      <h3>Contact Details</h3>
+      <p style="margin-top: 15px;">Hope this project helped you in some manner. Thank you!</p>
+      <p style="margin-top: 10px;">- SmartDairy Team</p>
+    </div>
+
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+  (function(){
+    emailjs.init("R48IOhQ49JrOvWnZq"); // from EmailJS
+  })();
+
+  document.getElementById("contact-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    emailjs.sendForm("service_z4nksb2", "template_of8kntl", this)
+      .then(function() {
+        alert("Message sent successfully 🚀");
+      }, function(error) {
+        alert("Failed to send message ❌");
+        console.log(error);
+      });
+  });
+</script>
 
 </body>
 
